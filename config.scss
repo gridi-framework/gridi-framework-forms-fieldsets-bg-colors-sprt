@@ -4,3 +4,23 @@ $fieldsets-background-colors-support-skip-colors-palette: null !default;
 $legend-background-colors-support-parser: (
     color: 'background-inner-color'
 ) !default;
+
+//Support for screens (gridi-framework-bg-colors-scrns-sprt)
+//Background colors from
+$legend-background-colors-support-screens-support-generate-from-classes: true !default;
+$legend-background-colors-support-screens-support-from-classes-skip-screens: null !default;
+
+$legend-background-colors-support-screens-support-from-extra-colors-palette: $fieldsets-background-colors-support-extra-colors-palette !default;
+$legend-background-colors-support-screens-support-from-skip-colors-palette: $fieldsets-background-colors-support-skip-colors-palette !default;
+//Background colors to
+$legend-background-colors-support-screens-support-generate-to-classes: true !default;
+$legend-background-colors-support-screens-support-to-classes-skip-screens: null !default;
+
+$legend-background-colors-support-screens-support-to-extra-colors-palette: $fieldsets-background-colors-support-extra-colors-palette !default;
+$legend-background-colors-support-screens-support-to-skip-colors-palette: $fieldsets-background-colors-support-skip-colors-palette !default;
+//Background colors only
+$legend-background-colors-support-screens-support-generate-only-classes: true !default;
+$legend-background-colors-support-screens-support-only-classes-skip-screens: null !default;
+
+$legend-background-colors-support-screens-support-only-extra-colors-palette: $fieldsets-background-colors-support-extra-colors-palette !default;
+$legend-background-colors-support-screens-support-only-skip-colors-palette: $fieldsets-background-colors-support-skip-colors-palette !default;
